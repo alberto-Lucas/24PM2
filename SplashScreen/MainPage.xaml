@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SplashScreen.MainPage">
+
+    <StackLayout>
+        <StackLayout VerticalOptions="CenterAndExpand">
+            <Image  x:Name="imgTeste"
+                Source="cara.png"
+                HeightRequest="200"
+                HorizontalOptions="Center" 
+                VerticalOptions="Center"/>
+        </StackLayout>
+        <StackLayout VerticalOptions="End">
+            <StackLayout>
+                <Button x:Name="btnGirarDireita"
+                        Text="Girar Direita"
+                        Clicked="btnGirarDireitaClicked"/>
+
+                <Button x:Name="btnGirarEsquerda"
+                        Text="Girar Esquerda"
+                        Clicked="btnGirarEsquerdaClicked"/>
+
+                <Button Text="Girar Vertical"
+                        Clicked="btnGirarVerticalClicked"/>
+
+                <Button Text="Girar Horizontal"
+                        Clicked="btnGirarHorizontalClicked"/>
+
+                <Button Text="Zoom +"
+                        Clicked="btnZoomMaisClicked"/>
+
+                <Button Text="Zoom -"
+                        Clicked="btnZoomMenosClicked"/>
+
+                <Button Text="Tremer"
+                        Clicked="btnTremerClicked"/>
+
+                <Button Text="Girar Zoom +"
+                        Clicked="btnGirarZoomMaisClicked"/>
+
+                <Button Text="Fade"
+                        Clicked="btnFadeClicked"/>
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

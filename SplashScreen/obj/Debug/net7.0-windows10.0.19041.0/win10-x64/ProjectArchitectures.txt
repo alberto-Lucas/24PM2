@@ -1,0 +1,1 @@
+C:\GitHub\24PM2\SplashScreen\SplashScreen.csproj;x64
