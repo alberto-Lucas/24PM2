@@ -11,38 +11,39 @@
                    FontSize="24"/>
 
             <StackLayout HorizontalOptions="Center"
-                         VerticalOptions="CenterAndExpand">
-                <Frame BackgroundColor="#333333">
-                    <StackLayout>
-                        <Label Text="Email:" 
+                         VerticalOptions="CenterAndExpand"
+                         BackgroundColor="#333333"
+                         Padding="20">
+                <StackLayout>
+                    <Label Text="Email:" 
                                HorizontalOptions="Start"/>
-                        <Entry x:Name="txtEmail"
+                    <Entry x:Name="txtEmail"
                                WidthRequest="200"
                                ClearButtonVisibility="WhileEditing"/>
-                        <Label x:Name="lblValidationEmail"
+                    <Label x:Name="lblValidationEmail"
                                Text="* Informe o Email."
                                TextColor="#f34336"
                                FontSize="12"
                                IsVisible="false"/>
-                        <StackLayout Padding="15"/>
+                    <StackLayout Padding="15"/>
 
-                        <Label Text="Senha:" 
+                    <Label Text="Senha:" 
                                HorizontalOptions="Start"/>
-                        <Entry x:Name="txtSenha"
+                    <Entry x:Name="txtSenha"
                                WidthRequest="200"
                                ClearButtonVisibility="WhileEditing"/>
-                        <Label x:Name="lblValidationSenha"
+                    <Label x:Name="lblValidationSenha"
                                Text="* Informe a Senha."
                                TextColor="#f34336"
                                FontSize="12"
                                IsVisible="false"/>
-                        <StackLayout Padding="15"/>
+                    <StackLayout Padding="15"/>
 
-                        <Button Text="Entrar"
+                    <Button Text="Entrar"
                                 BackgroundColor="DeepSkyBlue"
                                 Clicked="btnEntrar_Clicked"/>
-                    </StackLayout>
-                </Frame>            
+                </StackLayout>
+
             </StackLayout>
         </StackLayout>
     </ScrollView>
