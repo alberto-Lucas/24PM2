@@ -50,24 +50,21 @@ public partial class MainPage : ContentPage
     }
 
     private bool ValidarSenha(
-        Entry txtCampo, Label lblValidation)
+        ValidationComponent Senha)
     {
         bool resultado = false;
 
-        if (Validation.ValidarCampoVazio(txtCampo))
-            Validation.ExibirValidation(txtCampo,
-                lblValidation, "* Informe a Senha.");
-        else if (txtCampo.Text.Length < 5)
-            Validation.ExibirValidation(txtCampo,
-                lblValidation, 
-                "Informe a senha com no minimo 5 caracteres");
-        else if(txtCampo.Text != "admin")
-            Validation.ExibirValidation(txtCampo,
-                lblValidation, "Senha incorreta.");
+        if (Senha.IsVazio())
+            Senha.SetValidation("* Informe a Senha.", true);
+        else if (Senha.GetText().Length < 5)
+            Senha.SetValidation(
+                "Informe a senha com no minimo 5 caracteres", true);
+        else if (Senha.GetText() != "admin")
+            Senha.SetValidation("Senha incorreta!", true);
         else
         {
+            Senha.OcultarValicadtion();
             resultado = true;
-            Validation.OcultarValidation(lblValidation);
         }
 
         return resultado;
@@ -75,9 +72,13 @@ public partial class MainPage : ContentPage
 
     private void btnEntrar_Clicked(object sender, EventArgs e)
     {
+        //Cria o vinculo entre o Entry e Label
+        //Instancia a classe de validação
+        ValidationComponent senha =
+            new ValidationComponent(txtSenha, lblValidationSenha);
+
         ValidarEmail(txtEmail, lblValidationEmail);
-        ValidarSenha(txtSenha, lblValidationSenha);
-        //ValidarCamposComValidation(txtSenha, lblValidationSenha);
+        ValidarSenha(senha);
     }
 }
 
