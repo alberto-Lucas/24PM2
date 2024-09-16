@@ -1,0 +1,1 @@
+C:\GitHub\24PM2\AppMVVM\AppMVVM.csproj;x64
