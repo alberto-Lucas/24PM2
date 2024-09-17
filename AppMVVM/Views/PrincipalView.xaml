@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMVVM.Views.PrincipalView"
+             Title="PrincipalView">
+    <StackLayout Padding="20">
+        <Label Text="MVVM"
+               FontSize="50"
+               HorizontalOptions="Center"/>
+
+        <Entry Placeholder="Insira o nome"
+               FontSize="20"
+               Text="{Binding Nome}"/>
+
+        <Button Text="Entrar"
+                FontSize="20"
+                Command="{Binding RetornoCommand}"/>
+
+        <Label FontSize="30"
+               TextColor="Blue"
+               Text="{Binding Retorno}"/>
+
+        <Button Text="Cadastro"
+                FontSize="20"
+                Command="{Binding CadastroCommand}"/>
+    </StackLayout>
+</ContentPage>
