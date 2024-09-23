@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\GitHub\\24PM2\\LoginMVVM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D92C605E-D4E9-4CE7-AAC2-F709F0AC9074}|LoginMVVM.csproj|c:\\github\\24pm2\\loginmvvm\\views\\registroview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D92C605E-D4E9-4CE7-AAC2-F709F0AC9074}|LoginMVVM.csproj|solutionrelative:views\\registroview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D92C605E-D4E9-4CE7-AAC2-F709F0AC9074}|LoginMVVM.csproj|c:\\github\\24pm2\\loginmvvm\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D92C605E-D4E9-4CE7-AAC2-F709F0AC9074}|LoginMVVM.csproj|solutionrelative:views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D92C605E-D4E9-4CE7-AAC2-F709F0AC9074}|LoginMVVM.csproj|c:\\github\\24pm2\\loginmvvm\\views\\principalview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D92C605E-D4E9-4CE7-AAC2-F709F0AC9074}|LoginMVVM.csproj|solutionrelative:views\\principalview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D92C605E-D4E9-4CE7-AAC2-F709F0AC9074}|LoginMVVM.csproj|c:\\github\\24pm2\\loginmvvm\\viewmodels\\usuarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D92C605E-D4E9-4CE7-AAC2-F709F0AC9074}|LoginMVVM.csproj|solutionrelative:viewmodels\\usuarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegistroView.xaml",
+              "DocumentMoniker": "C:\\GitHub\\24PM2\\LoginMVVM\\Views\\RegistroView.xaml",
+              "RelativeDocumentMoniker": "Views\\RegistroView.xaml",
+              "ToolTip": "C:\\GitHub\\24PM2\\LoginMVVM\\Views\\RegistroView.xaml",
+              "RelativeToolTip": "Views\\RegistroView.xaml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-23T14:03:36.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PrincipalView.xaml",
+              "DocumentMoniker": "C:\\GitHub\\24PM2\\LoginMVVM\\Views\\PrincipalView.xaml",
+              "RelativeDocumentMoniker": "Views\\PrincipalView.xaml",
+              "ToolTip": "C:\\GitHub\\24PM2\\LoginMVVM\\Views\\PrincipalView.xaml",
+              "RelativeToolTip": "Views\\PrincipalView.xaml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAmwCUAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-23T14:03:20.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginView.xaml",
+              "DocumentMoniker": "C:\\GitHub\\24PM2\\LoginMVVM\\Views\\LoginView.xaml",
+              "RelativeDocumentMoniker": "Views\\LoginView.xaml",
+              "ToolTip": "C:\\GitHub\\24PM2\\LoginMVVM\\Views\\LoginView.xaml",
+              "RelativeToolTip": "Views\\LoginView.xaml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAmwDoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-23T14:02:55.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioViewModel.cs",
+              "DocumentMoniker": "C:\\GitHub\\24PM2\\LoginMVVM\\ViewModels\\UsuarioViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\UsuarioViewModel.cs",
+              "ToolTip": "C:\\GitHub\\24PM2\\LoginMVVM\\ViewModels\\UsuarioViewModel.cs",
+              "RelativeToolTip": "ViewModels\\UsuarioViewModel.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAAALcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T13:06:20.276Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

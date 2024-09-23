@@ -1,0 +1,1 @@
+C:\GitHub\24PM2\LoginMVVM\LoginMVVM.csproj;x64
