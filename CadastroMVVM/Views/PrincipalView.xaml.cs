@@ -7,6 +7,6 @@ public partial class PrincipalView : ContentPage
 	public PrincipalView()
 	{
 		InitializeComponent();
-		this.BindingContext = new PrincipalViewModel();
+		this.BindingContext = new ClienteViewModel();
 	}
 }

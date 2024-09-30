@@ -7,6 +7,6 @@ public partial class VisualizarView : ContentPage
 	public VisualizarView()
 	{
 		InitializeComponent();
-        this.BindingContext = new VisualizarViewModel();
+        this.BindingContext = new ClienteViewModel();
     }
 }

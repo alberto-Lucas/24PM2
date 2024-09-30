@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\GitHub\24PM2\CadastroMVVM\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-09-30T14:26:51.950</Modified>
+      <Modified>2024-09-30T18:15:04.961</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\24PM2\CadastroMVVM\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CadastroMVVM.dll">
       <PackagePath>CadastroMVVM.dll</PackagePath>
-      <Modified>2024-09-30T14:26:51.470</Modified>
+      <Modified>2024-09-30T18:15:03.428</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\24PM2\CadastroMVVM\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>CadastroMVVM.exe</PackagePath>
-      <Modified>2024-09-30T14:26:51.485</Modified>
+      <Modified>2024-09-30T18:15:03.504</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\24PM2\CadastroMVVM\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
