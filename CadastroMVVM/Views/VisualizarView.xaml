@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CadastroMVVM.Views.VisualizarView"
+             Title="VisualizarView">
+    <ScrollView>
+        <StackLayout Padding="15">
+            <Label Text="Cadastro MVVM"
+                   FontSize="30"/>
+
+            <StackLayout Padding="10"/>
+            <Label Text="Nome:"/>
+            <Label Text="{Binding Nome}"/>
+
+            <StackLayout Padding="10"/>
+            <Label Text="CPF:"/>
+            <Label Text="{Binding CPF}"/>
+
+            <StackLayout Padding="10"/>
+            <Label Text="RG:"/>
+            <Label Text="{Binding RG}"/>
+
+            <StackLayout Padding="10"/>
+            <Label Text="Telefone:"/>
+            <Label Text="{Binding Telefone}"/>
+
+            <StackLayout Padding="10"/>
+            <Label Text="Data Nascimento:"/>
+            <Label Text="{Binding DtNascimento}"/>
+
+            <StackLayout Padding="10"/>
+            <Label Text="Email:"/>
+            <Label Text="{Binding Email}"/>
+
+            <StackLayout Padding="10"/>
+            <Label Text="Endereco:"/>
+            <Label Text="{Binding Endereco}"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
