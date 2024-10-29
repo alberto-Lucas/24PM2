@@ -9,6 +9,8 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CadastroMVVM
 build_property.ProjectDir = C:\GitHub\24PM2\CadastroMVVM\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 
 [C:/GitHub/24PM2/CadastroMVVM/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

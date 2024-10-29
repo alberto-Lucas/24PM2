@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CadastroMVVM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+6de4cf142f238d87f1979987d04cc44da5b82113")]
 [assembly: System.Reflection.AssemblyProductAttribute("CadastroMVVM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CadastroMVVM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
